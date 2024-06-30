@@ -160,14 +160,14 @@ class Settings extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle_outlined),
             label: ("Contacts")
 
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.video_chat),
+              icon: Icon(Icons.chat),
               label: ("Chats")
 
           ),
