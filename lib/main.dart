@@ -42,8 +42,12 @@ class Settings extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              Center(child: Text('User Name'),),
-              Center(child: Text('User Number - Nick name'),),
+              Center(
+                child: Text('User Name'),
+              ),
+              Center(
+                child: Text('User Number - Nick name'),
+              ),
               SizedBox(height: 20),
               Card(
                 elevation: 4,
@@ -154,6 +158,25 @@ class Settings extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.account_circle_outlined),
+            label: ("Contacts")
+
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.video_chat),
+              label: ("Chats")
+
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.settings),
+              label: ("Settings")
+
+          ),
+        ],
       ),
     );
   }
