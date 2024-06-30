@@ -6,7 +6,6 @@ class Sandbox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Telegram Settings',
       home: Settings(),
     );
   }
@@ -40,7 +39,6 @@ class Settings extends StatelessWidget {
                 child: CircleAvatar(
                   radius: 45,
                   backgroundImage: AssetImage('assets/avatar.png'),
-                  // Use your own image or placeholder
                 ),
               ),
               SizedBox(height: 20),
