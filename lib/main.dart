@@ -38,7 +38,7 @@ class Settings extends StatelessWidget {
               Center(
                 child: CircleAvatar(
                   radius: 45,
-                  backgroundImage: AssetImage('assets/avatar.png'),
+                  backgroundImage: AssetImage('assets/rb.jpg'),
                 ),
               ),
               SizedBox(height: 20),
